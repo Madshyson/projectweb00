@@ -1,0 +1,71 @@
+body {
+	background-color: #4287aa;
+	font-family: sans-serif;
+}
+
+.banner {
+	background : #0d5477;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: auto;
+	line-height: 2;
+}
+.connect {
+	padding-top:9px;
+	padding-right:10px;
+	position: fixed;
+	text-align: right;
+	margin : auto;
+	display:flex;
+	align-items:baseline;
+	font-size: 14px;
+	color: #cad0d3;
+	right: 3px;
+	line-height: 90%;
+	padding-bottom:0px;
+	text-decoration:none;
+}
+
+.connect a:link, .connect a:visited, .connect a:active {
+	text-decoration: none;
+	color: #cad0d3;
+}
+
+.connect a:hover {
+	color: #778085;
+}
+
+.corps {
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.corps a:link, .corps a:visited, .corps a:active {
+	text-decoration: none;
+	color: #3c3c47;
+}
+
+.corps a:hover {
+	color: #24242a;
+}
+
+#adminTable {
+	border-collapse: collapse;
+	width: 100%; 
+}
+#adminTable table  {
+	border-collapse: collapse;
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#adminTable , #adminTable td, #adminTable th {
+	border: 1px solid #545464;
+
+}
